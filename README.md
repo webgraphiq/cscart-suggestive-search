@@ -2,7 +2,7 @@
 
 **🛑 PREMIUM ADD-ON: This repository does not contain the open-source code. It serves as the official listing and documentation page for the WebGraphiq premium add-on.**
 
-**Suggestive Search** is a live search add-on for CS-Cart and Multi-Vendor. As a shopper types, matching products, categories, and vendors appear in a drop-down, so the path from the search box to the product page stays short.
+**Suggestive Search** is a live AJAX search and autocomplete add-on for CS-Cart and Multi-Vendor. As a shopper types, matching products, categories, and vendors appear in a drop-down, so the path from the search box to the product page stays short.
 
 ## [🛒 Buy & View Live Demo](https://www.webgraphiq.com/suggestive-search.html)
 
@@ -60,3 +60,7 @@ This is the public product listing. The add-on package, license checks, and sour
 Support: [webgraphiq.com](https://www.webgraphiq.com) · webgraphiq@gmail.com
 
 © WebGraphiq. All rights reserved. [License](https://www.webgraphiq.com/license.html)
+
+## Other Premium CS-Cart Add-ons by WebGraphiq
+
+More CS-Cart and Multi-Vendor add-ons are listed on the [WebGraphiq GitHub profile](https://github.com/webgraphiq).
