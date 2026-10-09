@@ -47,10 +47,6 @@ Under **Website → Search keywords history** you can review, delete, and clear 
 
 ## This repository
 
-This is the public product listing. The add-on package, license checks, and source files are not published here. After purchase, the package is readable PHP under the WebGraphiq commercial license, installed from your WebGraphiq account.
-
-Support: [webgraphiq.com](https://www.webgraphiq.com) · webgraphiq@gmail.com
-
 <p align="center">
   <a href="https://www.webgraphiq.com/suggestive-search.html">
     <img alt="Buy and view the live demo" src="https://img.shields.io/badge/CS--Cart-Buy%20%26%20View%20Live%20Demo-28a745?style=for-the-badge&labelColor=1A365D">
@@ -58,5 +54,9 @@ Support: [webgraphiq.com](https://www.webgraphiq.com) · webgraphiq@gmail.com
 </p>
 
 <p align="center"><strong>One-time license · live demo · no monthly search fee</strong></p>
+
+This is the public product listing. The add-on package, license checks, and source files are not published here. After purchase, the package is readable PHP under the WebGraphiq commercial license, installed from your WebGraphiq account.
+
+Support: [webgraphiq.com](https://www.webgraphiq.com) · webgraphiq@gmail.com
 
 © WebGraphiq. All rights reserved. [License](https://www.webgraphiq.com/license.html)
