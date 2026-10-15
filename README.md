@@ -2,7 +2,7 @@
 
 **🛑 PREMIUM ADD-ON: This repository does not contain the open-source code. It serves as the official listing and documentation page for the WebGraphiq premium add-on.**
 
-**Suggestive Search** is a live AJAX search, autocomplete, and typo-tolerant search add-on for CS-Cart and Multi-Vendor. As a shopper types, matching products, categories, and vendors appear in a drop-down. Misspellings can still find the right product, and the Enter / Search results page uses the same field rules as the dropdown.
+**Suggestive Search** is a live AJAX search, autocomplete, and typo-tolerant search add-on for CS-Cart and Multi-Vendor. As a shopper types, matching products, categories, and vendors appear in a drop-down — fast even on catalogs with hundreds or thousands of products, thanks to a short-lived live-search cache. Misspellings can still find the right product, and the Enter / Search results page uses the same field rules as the dropdown.
 
 ## [🛒 Buy & View Live Demo](https://www.webgraphiq.com/suggestive-search.html)
 
@@ -11,6 +11,7 @@ One-time license. No monthly search-service fee. The current price and the live 
 ## Why store owners use it
 
 - Shoppers see matches while they type, instead of waiting for a full search-results page.
+- **Live search cache:** repeated queries are served from the shop cache backend (file, Redis, or APCu), so large catalogs still feel instant. Set the TTL in seconds, or `0` to disable; index updates invalidate related entries.
 - **Typo tolerance:** close spellings still find products in the dropdown and after Enter (for example `automx` → Automatic).
 - Only the product fields you tick are searched — live suggestions and the full results page use the same rules.
 - Each result can show a thumbnail, the product code, and the price.
@@ -44,7 +45,7 @@ One-time license. No monthly search-service fee. The current price and the live 
 - Vendor search in the company name (Multi-Vendor).
 - Whether the full search-results page sorts newest items first.
 - Whether phrases are stored while the shopper types, when they submit the search, or both.
-- Typo tolerance on/off, the N threshold, index rebuild chunk size, optional live-query cache TTL, and index cron password / max age.
+- Typo tolerance on/off, the N threshold, index rebuild chunk size, **live search cache TTL** (seconds; default 60), and index cron password / max age.
 
 ## Search keyword history
 
@@ -64,7 +65,7 @@ Under **Website → Search keywords history** you can review, delete, and clear 
   </a>
 </p>
 
-<p align="center"><strong>One-time license · live search · typo tolerance · no monthly search fee</strong></p>
+<p align="center"><strong>One-time license · fast live search · typo tolerance · no monthly search fee</strong></p>
 
 This is the public product listing. The add-on package, license checks, and source files are not published here. After purchase, the package is readable PHP under the WebGraphiq commercial license, installed from your WebGraphiq account.
 
